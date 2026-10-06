@@ -14,10 +14,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid green;
 }
 
 .card {
+  border: 3px solid green;
   width: 350px;
   padding: 40px;
   text-align: center;
