@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app">
       <div className="card">
-        <h1>My React App</h1>
+        <h1>My Count App</h1>
 
         <p className="count">{count}</p>
 
