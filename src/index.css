@@ -24,15 +24,17 @@ body {
   background: white;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  animation: br 0.10s linear infinite;
+  animation: br 1s linear infinite;
 }
 
 @keyframes br{
   0%{
     border-radius: 20%/40%;
+    transition: 1s;
   }
   50%,100%{
-    border-radius: 5%
+    border-radius: 50%;
+    transition: 1s;
   }
 }
 
