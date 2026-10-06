@@ -29,12 +29,12 @@ body {
 
 @keyframes br{
   0%{
-    border-radius: 20%/40%;
-    transition: 1s;
+    border-radius: 70%/40%;
+    transition: 2s;
   }
-  50%,100%{
+  100%{
     border-radius: 50%;
-    transition: 1s;
+    transition: 3s;
   }
 }
 
