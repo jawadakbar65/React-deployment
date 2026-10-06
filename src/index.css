@@ -9,17 +9,24 @@ body {
   background: #f2f4f7;
 }
 
+/* .main{
+  display: flex;
+} */
+
 .app{
-  width: 300px;
-  height: 400px;
+  width: 30em;
+  height: 200px;
   border-radius: 10px;
-  box-shadow: inset 7px 7px 15px rgba(198,120,210,0.6),
-  -7px -7px 15px rgba(255,255,255,0.4);
+  box-shadow: inset 7px 7px 15px rgba(179, 8, 205, 0.6),
+  inset -7px -7px 35px rgba(62, 153, 32, 0.6);
   margin-left: 20em;
 }
-
+h1{
+  color: #3c3cbf;
+  margin-left: 3em;
+}
 img{
-  width: 290px;
+  width: 295px;
   height: 300px;
   border-radius: 10px;
 }
@@ -27,11 +34,14 @@ img{
 p{
   color: transparent;
   color: blue !important;
+  margin-left: 4em;
 }
 
 button{
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-radius: 5px;
-  background-color: lightblue;
-  color: white transparent !important;
+  background-color: #3c3cbf;
+  color: white;
+  border: none;
+  margin-left: 5em;
 }
