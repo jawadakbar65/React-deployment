@@ -9,61 +9,10 @@ body {
   background: #f2f4f7;
 }
 
-.app {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  border: 3px solid green;
-  width: 350px;
-  padding: 40px;
-  text-align: center;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  animation: br 1s linear infinite;
-}
-
-@keyframes br{
-  0%{
-    border-radius: 70%/40%;
-    transition: 2s;
-  }
-  100%{
-    border-radius: 50%;
-    transition: 3s;
-  }
-}
-
-.card h1 {
-  margin-bottom: 25px;
-}
-
-.count {
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-button {
-  border: none;
-  padding: 12px 18px;
+.app{
+  width: 500px;
+  height: 400px;
   border-radius: 10px;
-  background: #111827;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  opacity: 0.8;
+  box-shadow: inset 7px 7px 15px rgba(198,120,210,0.6),
+  -7px -7px 15px rgba(255,255,255,0.4);
 }

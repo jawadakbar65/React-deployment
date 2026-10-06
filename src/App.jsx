@@ -5,25 +5,7 @@ function App() {
 
   return (
     <div className="app">
-      <div className="card">
-        <h1>My Count App</h1>
-
-        <p className="count">{count}</p>
-
-        <div className="buttons">
-          <button onClick={() => setCount(count - 1)}>
-            −
-          </button>
-
-          <button onClick={() => setCount(0)}>
-            Reset
-          </button>
-
-          <button onClick={() => setCount(count + 1)}>
-            +
-          </button>
-        </div>
-      </div>
+      <h1>My Card</h1>
     </div>
   );
 }
